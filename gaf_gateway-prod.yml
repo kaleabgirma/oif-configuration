@@ -121,7 +121,7 @@ jhipster:
       max-entries: 1000 # Number of objects in each cache entry
   security:
     client-authorization:
-      access-token-uri: http://gaf-uaa/oauth/token
+      access-token-uri: http://ec2-54-154-111-138.eu-west-1.compute.amazonaws.com:8901/oauth/token
       token-service-id: gaf-uaa
       client-id: internal
       client-secret: internal
@@ -142,7 +142,7 @@ jhipster:
     retention-period: 30 # Number of days before audit events are deleted.
 oauth2:
   signature-verification:
-    public-key-endpoint-uri: http://gaf-uaa/oauth/token_key
+    public-key-endpoint-uri: http://ec2-54-154-111-138.eu-west-1.compute.amazonaws.com:8901/oauth/token_key
     #ttl for public keys to verify JWT tokens (in ms)
     ttl: 3600000
     #max. rate at which public keys will be fetched (in ms)
