@@ -112,6 +112,9 @@ server:
 # ===================================================================
 
 jhipster:
+  gateway:
+    authorized-microservices-endpoints:
+      gaf-uaa: 'api/*'
   http:
     cache: # Used by the CachingHttpHeadersFilter
       timeToLiveInDays: 1461
