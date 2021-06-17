@@ -15,9 +15,9 @@
 
 logging:
   level:
-    ROOT: INFO
-    io.github.jhipster: INFO
-    org.francophonie.gaf: INFO
+    ROOT: TRACE
+    io.github.jhipster: TRACE
+    org.francophonie.gaf: TRACE
 
 eureka:
   instance:
