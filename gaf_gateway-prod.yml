@@ -18,7 +18,8 @@ logging:
     ROOT: TRACE
     io.github.jhipster: TRACE
     org.francophonie.gaf: TRACE
-
+    org.apache.kafka.clients.NetworkClient: ERROR
+    
 eureka:
   instance:
     prefer-ip-address: true
