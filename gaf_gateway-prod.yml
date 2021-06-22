@@ -135,8 +135,8 @@ jhipster:
       max-entries: 1000 # Number of objects in each cache entry
   security:
     client-authorization:
-      access-token-uri: http://gaf-uaa/oauth/token
-      token-service-id: gaf-uaa
+      access-token-uri: http://gafuaa/oauth/token
+      token-service-id: gafuaa
       client-id: internal
       client-secret: internal
   mail: # specific JHipster mail property, for standard properties see MailProperties
