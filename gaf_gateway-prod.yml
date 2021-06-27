@@ -81,7 +81,7 @@ spring:
 
 # See http://cloud.spring.io/spring-cloud-netflix/spring-cloud-netflix.html
 zuul: # those values must be configured depending on the application specific needs
-  sensitive-headers: authorization
+  sensitiveHeaders:
   ignored-headers:
     max-total-connections: 1000
     max-per-route-connections: 100
