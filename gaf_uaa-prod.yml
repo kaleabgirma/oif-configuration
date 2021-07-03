@@ -63,10 +63,16 @@ spring:
   liquibase:
     contexts: prod, faker
   mail:
-    host: localhost
-    port: 25
-    username:
-    password:
+    host: smtp.zoho.com
+    port: 587
+    username: plateformedesgaf@zohomail.com #Replace this field with your Zoho username.
+    password: oifg@f2021 #Replace this field with your Zoho password.
+    protocol: smtp
+    tls: true
+    properties.mail.smtp:
+      auth: true
+      starttls.enable: true
+      ssl.trust: smtp.zoho.com
   thymeleaf:
     cache: true
   sleuth:
@@ -135,6 +141,7 @@ jhipster:
         token-validity-in-seconds-for-remember-me: 252000
   mail: # specific JHipster mail property, for standard properties see MailProperties
     base-url: http://my-server-url-to-change # Modify according to your server's URL
+    from: plateformedesgaf@zohomail.com
   metrics:
     logs: # Reports metrics in the logs
       enabled: false
