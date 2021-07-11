@@ -179,4 +179,5 @@ uaa:
 # https://www.jhipster.tech/common-application-properties/
 # ===================================================================
 
-# application:
+application:
+  oif-gaf-web-app-base-url: http://web.oif.gebeya.io
