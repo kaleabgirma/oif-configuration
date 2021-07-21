@@ -181,3 +181,4 @@ uaa:
 
 application:
   oif-gaf-web-app-base-url: http://web.oif.gebeya.io
+  oif-gaf-back-office-base-url: http://ec2-54-154-111-138.eu-west-1.compute.amazonaws.com:8080
