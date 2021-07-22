@@ -36,7 +36,6 @@ spring:
     active: dev
     include:
       - swagger
-      - test
       # Uncomment to activate TLS for the dev profile
       #- tls
   devtools:
@@ -60,7 +59,7 @@ spring:
     console:
       enabled: false
   jpa:
-    database-platform: io.github.jhipster.domain.util.FixedH2Dialect
+    database-platform: io.github.jhipster.domain.util.FixedPostgreSQL10Dialect
     show-sql: true
   data:
     elasticsearch:
