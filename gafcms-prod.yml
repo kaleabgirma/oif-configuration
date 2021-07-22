@@ -49,13 +49,13 @@ spring:
   jpa:
     database-platform: io.github.jhipster.domain.util.FixedPostgreSQL10Dialect
     show-sql: false
-  data:
-    jest:
-      uri: http://ec2-18-203-220-151.eu-west-1.compute.amazonaws.com:9200
+  #data:
+  #  jest:
+  #    uri: http://ec2-18-203-220-151.eu-west-1.compute.amazonaws.com:9200
   # see https://docs.spring.io/spring-boot/docs/current/reference/html/boot-features-nosql.html#boot-features-connecting-to-elasticsearch-jest
-  elasticsearch:
-    rest:
-      uris: http://ec2-18-203-220-151.eu-west-1.compute.amazonaws.com:9200
+  #elasticsearch:
+  #  rest:
+  #    uris: http://ec2-18-203-220-151.eu-west-1.compute.amazonaws.com:9200
  
   # Replace by 'prod, faker' to add the faker context and have sample data loaded in production
   liquibase:
