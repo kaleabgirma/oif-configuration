@@ -63,16 +63,10 @@ spring:
   liquibase:
     contexts: prod, faker
   mail:
-    host: smtp.aol.com
-    port: 587
-    username: plateformedesgaf@aol.com #Replace this field with your Zoho username.
-    password: oifg@f2021 #Replace this field with your Zoho password.
-    protocol: smtp
-    tls: true
-    properties.mail.smtp:
-      auth: true
-      starttls.enable: true
-      ssl.trust: smtp.aol.com
+    host: localhost
+    port: 25
+    username:
+    password:
   thymeleaf:
     cache: true
   sleuth:
@@ -182,3 +176,10 @@ uaa:
 application:
   oif-gaf-web-app-base-url: http://web.oif.gebeya.io
   oif-gaf-back-office-base-url: http://ec2-54-154-111-138.eu-west-1.compute.amazonaws.com:8080
+  email:
+    logo-uri: 'https://images.gp.gebeya.io/logo/logo.png'
+    logo-full-uri: 'http://images.gp.gebeya.io/logo/logo-full-990000045101453c.png'
+    send-grid-api-key: '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'
+    sender-address: 'plateformedesgafs@zohomail.com'
+    sender-name: "L'équipe de la Plateforme des GAF"
+    default-subject: "Un message de l'équipe de la Plateforme des GAF"
