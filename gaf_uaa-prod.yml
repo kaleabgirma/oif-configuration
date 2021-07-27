@@ -135,7 +135,7 @@ jhipster:
         token-validity-in-seconds-for-remember-me: 252000
   mail: # specific JHipster mail property, for standard properties see MailProperties
     base-url: http://ec2-54-154-111-138.eu-west-1.compute.amazonaws.com:8080 # Modify according to your server's URL
-    from: plateformedesgaf@zohomail.com
+    from: oifgaf@gmail.com
   metrics:
     logs: # Reports metrics in the logs
       enabled: false
@@ -180,6 +180,6 @@ application:
     logo-uri: 'https://images.gp.gebeya.io/logo/logo.png'
     logo-full-uri: 'http://images.gp.gebeya.io/logo/logo-full-990000045101453c.png'
     send-grid-api-key: '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'
-    sender-address: 'plateformedesgafs@zohomail.com'
+    sender-address: 'oifgaf@gmail.com'
     sender-name: "L'équipe de la Plateforme des GAF"
     default-subject: "Un message de l'équipe de la Plateforme des GAF"

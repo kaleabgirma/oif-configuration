@@ -137,7 +137,7 @@ jhipster:
       client-secret: internal
   mail: # specific JHipster mail property, for standard properties see MailProperties
     base-url: http://my-server-url-to-change # Modify according to your server's URL
-    from: plateformedesgaf@zohomail.com
+    from: oifgaf@gmail.com
   metrics:
     logs: # Reports metrics in the logs
       enabled: false
