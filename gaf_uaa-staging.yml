@@ -173,5 +173,5 @@ uaa:
 # ===================================================================
 
 application:
-  oif-gaf-web-app-base-url: http://web.oif.gebeya.io
-  oif-gaf-back-office-base-url: http://gaf-test.francophonie.org/gateway
+  oif-gaf-web-app-base-url: http://gaf-test.francophonie.org
+  oif-gaf-back-office-base-url: http://gaf-test.francophonie.org/services
