@@ -134,7 +134,7 @@ jhipster:
         # Refresh Token is valid for 7 days
         token-validity-in-seconds-for-remember-me: 252000
   mail: # specific JHipster mail property, for standard properties see MailProperties
-    base-url: http://my-server-url-to-change # Modify according to your server's URL
+    base-url: http://gaf-test.francophonie.org # Modify according to your server's URL
   metrics:
     logs: # Reports metrics in the logs
       enabled: false
@@ -174,4 +174,4 @@ uaa:
 
 application:
   oif-gaf-web-app-base-url: http://gaf-test.francophonie.org
-  oif-gaf-back-office-base-url: http://gaf-test.francophonie.org/services
+  oif-gaf-back-office-base-url: 10.10.10.84:8080
